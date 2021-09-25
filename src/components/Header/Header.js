@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import logo from "../../images/logo.png";
+import Hero from "../Hero/Hero";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
       <header className="header-section">
         <div className="top-header">
           <div className="container menu">
-            <img src={logo} alt="" />
+            <img className="logo" src={logo} alt="" />
             <nav className="nav-bar">
               <a href="/home">Home</a>
               <a href="/team">Team</a>
@@ -17,7 +18,7 @@ const Header = () => {
             </nav>
           </div>
         </div>
-        <h2>Build a team of computer scientists</h2>
+        <Hero></Hero>
       </header>
     </div>
   );
