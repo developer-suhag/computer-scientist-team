@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Matthew Dillon",
+    "age": 55,
+    "education": "University of California, Berkeley",
+    "occupation": "Software Engineer",
+    "know_for": "Amiga, FreeBSD",
+    "salary": 80000,
+    "img": "https://ibb.co/hVDQm8B"
+  },
+  {
+    "id": 2,
+    "name": "Richard Allan DeMillo",
+    "age": 74,
+    "education": " University of St. Thomas",
+    "occupation": "Computer Scientist",
+    "know_for": "Researcher and author of over 100 articles",
+    "salary": 120000,
+    "img": "https://ibb.co/Wvq1Y4g"
+  },
+  {
+    "id": 3,
+    "name": "Ryan Dahl",
+    "age": 40,
+    "education": "University of Rochester",
+    "occupation": "Software Engineer",
+    "know_for": "Node.js & Deno",
+    "salary": 90000,
+    "img": "https://ibb.co/hYL9Z53"
+  },
+  {
+    "id": 4,
+    "name": "Tracy Chou",
+    "age": 34,
+    "education": "Stanford University",
+    "occupation": "Software Engineer",
+    "know_for": "Raising the profile of the issue of the low representation of women in technology companies",
+    "salary": 50000,
+    "img": "https://ibb.co/4gNmv6q"
+  },
+  {
+    "id": 5,
+    "name": "Edwin Catmull",
+    "age": 76,
+    "education": "University of Utah",
+    "occupation": "Computer scientist",
+    "know_for": "Texture mapping\n    Catmull Rom spline\n    Catmull Clark subdivision surface",
+    "salary": 100000,
+    "img": "https://ibb.co/qxVRJ2N"
+  },
+  {
+    "id": 6,
+    "name": "John Carmack",
+    "age": 51,
+    "education": "University of Missouri, Kansas City",
+    "occupation": "Computer programmer",
+    "know_for": "Co-founding id Software",
+    "salary": 95000,
+    "img": "https://ibb.co/9ZbLNkt"
+  },
+  {
+    "id": 7,
+    "name": "Luca Cardelli",
+    "age": 65,
+    "education": "University of Pisa",
+    "occupation": "Computer scientist",
+    "know_for": "Theory of Objects with Martín Abadi ",
+    "salary": 85000,
+    "img": "https://ibb.co/Ct5ghjY"
+  },
+  {
+    "id": 8,
+    "name": "Tracy Camp",
+    "age": 56,
+    "education": "The College of William and Mary",
+    "occupation": "Computer scientist",
+    "know_for": "ACM Fellow (2012)\n    ACM Distinguished Scientist (2006)",
+    "salary": 45000,
+    "img": "https://ibb.co/0tjVF0m"
+  },
+  {
+    "id": 9,
+    "name": "Michael Butler",
+    "age": 75,
+    "education": "University of Southampton",
+    "occupation": "Computer scientist",
+    "know_for": "B-Method",
+    "salary": 87000,
+    "img": "https://ibb.co/t40ZBxp"
+  },
+  {
+    "id": 10,
+    "name": "Fred Brooks",
+    "age": 90,
+    "education": "Duke University",
+    "occupation": "Software engineer",
+    "know_for": "OS/360\n    The Mythical Man-Month",
+    "salary": 150000,
+    "img": "https://ibb.co/nnFXbjg"
+  },
+  {
+    "id": 11,
+    "name": "Sergey Brin",
+    "age": 48,
+    "education": "University of Maryland, College Park",
+    "occupation": "Internet entrepreneur",
+    "know_for": "Co-founding Google. Co-founding Alphabet Inc. Co-creating PageRank",
+    "salary": 200000,
+    "img": "https://ibb.co/DDgKs2v"
+  },
+  {
+    "id": 12,
+    "name": "David P. Anderson",
+    "age": 66,
+    "education": "Wesleyan University",
+    "occupation": "Research scientist ",
+    "know_for": "Volunteer computing",
+    "salary": 86000,
+    "img": "https://ibb.co/c6PMtY4"
+  },
+  {
+    "id": 13,
+    "name": "Luis von Ahn",
+    "age": 43,
+    "education": "Carnegie Mellon University",
+    "occupation": "Consulting Professor ",
+    "know_for": "CAPTCHA, reCAPTCHA, Duolingo, crowdsourcing pioneer",
+    "salary": 60000,
+    "img": "https://ibb.co/4swBh8W"
+  },
+  {
+    "id": 14,
+    "name": "Leonard Adleman",
+    "age": 75,
+    "education": "University of California, Berkeley",
+    "occupation": "Computer scientist",
+    "know_for": "RSA",
+    "salary": 75000,
+    "img": "https://ibb.co/9Ybz6gC"
+  },
+  {
+    "id": 15,
+    "name": "Rediet Abebe",
+    "age": 30,
+    "education": "Cornell University",
+    "occupation": "Computer scientist",
+    "know_for": "Mechanism Design for Social Good (MD4SG) AI for social good",
+    "salary": 80000,
+    "img": "https://ibb.co/8zcrBjt"
+  }
+]
