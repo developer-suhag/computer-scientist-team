@@ -33,7 +33,7 @@ const Scientist = (props) => {
             </p>
           </div>
           <div className="card-footer bg-white border-0 text-center">
-            <button className="regular-btn">
+            <button className="regular-btn animate__animated animate__backInUp animate__delay-2s">
               <span className="icon me-2">
                 <FontAwesomeIcon icon={faUserPlus} />
               </span>
