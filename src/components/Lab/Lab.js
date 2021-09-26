@@ -17,15 +17,19 @@ const Lab = () => {
   const [cart, setCart] = useState(0);
   // cart salary
   const [newSalary, setNewSalary] = useState(0);
+  // added scientists list
+  const [scientistList, setScientistList] = useState([]);
   const handleCart = (scientist) => {
     // cart count
     const newCount = cart + 1;
     setCart(newCount);
     // salary
-    const { salary } = scientist;
+    const { salary, name } = scientist;
     const totalSalary = newSalary + salary;
     setNewSalary(totalSalary);
-    console.log(newSalary);
+    // scientists list
+    const newList = [...scientistList, name];
+    setScientistList(newList);
   };
   return (
     //   lab section
@@ -47,7 +51,11 @@ const Lab = () => {
         </div>
         <div className="cart px-3 animate__animated animate__fadeInRight animate__delay-2s">
           {/* cart components  */}
-          <Cart cart={cart} newSalary={newSalary}></Cart>
+          <Cart
+            cart={cart}
+            newSalary={newSalary}
+            scientistList={scientistList}
+          ></Cart>
         </div>
       </div>
     </div>

@@ -1,6 +1,5 @@
 import React from "react";
 // react font awesome
-import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -13,7 +12,6 @@ import "./Scientist.css";
 const Scientist = (props) => {
   const { name, age, img, education, know_for, occupation, salary } =
     props.scientist;
-  // console.log(props);
   return (
     <div>
       {/* card  */}
@@ -29,13 +27,25 @@ const Scientist = (props) => {
           </div>
           <div className="card-body text-center">
             <div className="social-icons">
-              <a href="#">
+              <a
+                href="https://www.facebook.com/suhag.alamin.315/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
-              <a href="#">
+              <a
+                href="https://twitter.com/suhag_alamain"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
-              <a href="#">
+              <a
+                href="https://github.com/developer-suhag"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>

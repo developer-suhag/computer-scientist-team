@@ -1,8 +1,9 @@
 import React from "react";
+import ScientistList from "../ScientistList/ScientistList";
 import "./Cart.css";
 
 const Cart = (props) => {
-  const { cart, newSalary } = props;
+  const { cart, newSalary, scientistList } = props;
   return (
     //   cart section
     <div className="cart-box">
@@ -10,7 +11,16 @@ const Cart = (props) => {
       <div className="mt-4">
         <h5 className="mb-3 total-members">Total members: {cart}</h5>
         <h5 className="mb-4">Costs of team: ${newSalary}</h5>
-        <h5 className="mb-4">Scientists List:</h5>
+        <div>
+          <h5 className="mb-4 text-center scientist-list">
+            Scientists List :-{" "}
+          </h5>
+          <ul>
+            {scientistList.map((scientist) => (
+              <ScientistList scientist={scientist}></ScientistList>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,10 @@
+/* scientlist component  */
+.list-item {
+  list-style: none;
+  padding: 5px 0;
+  color: #14213d;
+  font-size: 18px;
+}
+.check {
+  color: #005f73;
+}
