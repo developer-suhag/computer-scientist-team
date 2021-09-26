@@ -3,7 +3,14 @@
   border: 1px solid #005f73;
   border-radius: 20px;
   box-shadow: 4px 4px 8px 0px rgba(149, 175, 192, 0.5);
+  transition: 0.4s;
 }
+
+.scientist-box:hover {
+  transform: translateY(-10px);
+  box-shadow: none;
+}
+
 .profile-img {
   width: 50%;
   border-radius: 50%;

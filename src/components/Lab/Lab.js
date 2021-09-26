@@ -19,14 +19,14 @@ const Lab = () => {
         Pick your Experts
       </h3>
       {/* lab container  */}
-      <div className="lab-container">
+      <div className="lab-container animate__animated animate__fadeInLeft animate__delay-1s">
         {/* scientists components  */}
         <div className="scientists row row-cols-1 row-cols-md-3 g-4 px-4">
           {scientists.map((scientist) => (
             <Scientist key={scientist.id} scientist={scientist}></Scientist>
           ))}
         </div>
-        <div className="cart">
+        <div className="cart animate__animated animate__fadeInRight animate__delay-2s">
           {/* cart components  */}
           <Cart></Cart>
         </div>
