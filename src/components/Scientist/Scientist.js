@@ -13,6 +13,7 @@ import "./Scientist.css";
 const Scientist = (props) => {
   const { name, age, img, education, know_for, occupation, salary } =
     props.scientist;
+  // console.log(props);
   return (
     <div>
       {/* card  */}
@@ -50,11 +51,14 @@ const Scientist = (props) => {
               <b>Know for:</b> {know_for.slice(0, 100)}.
             </p>
             <p className="salary">
-              <b>Salary: {salary}</b>
+              <b>Salary: ${salary}</b>
             </p>
           </div>
           <div className="card-footer bg-white border-0 text-center">
-            <button className="regular-btn animate__animated animate__backInUp animate__delay-2s">
+            <button
+              onClick={() => props.handleCart(props.scientist)}
+              className="regular-btn animate__animated animate__backInUp animate__delay-2s"
+            >
               <span className="icon me-2">
                 <FontAwesomeIcon icon={faUserPlus} />
               </span>

@@ -6,12 +6,27 @@ import "./Lab.css";
 const Lab = () => {
   // load data
   const [scientists, setScientists] = useState([]);
-  //   console.log(scientists);
   useEffect(() => {
     fetch("./scientists.json")
       .then((res) => res.json())
       .then((data) => setScientists(data));
   }, []);
+
+  // handle cart
+  // cart count
+  const [cart, setCart] = useState(0);
+  // cart salary
+  const [newSalary, setNewSalary] = useState(0);
+  const handleCart = (scientist) => {
+    // cart count
+    const newCount = cart + 1;
+    setCart(newCount);
+    // salary
+    const { salary } = scientist;
+    const totalSalary = newSalary + salary;
+    setNewSalary(totalSalary);
+    console.log(newSalary);
+  };
   return (
     //   lab section
     <div className="container-fluid lab-section py-5 px-3">
@@ -23,12 +38,16 @@ const Lab = () => {
         {/* scientists components  */}
         <div className="scientists row row-cols-1 row-cols-md-3 g-4 px-4">
           {scientists.map((scientist) => (
-            <Scientist key={scientist.id} scientist={scientist}></Scientist>
+            <Scientist
+              key={scientist.id}
+              scientist={scientist}
+              handleCart={handleCart}
+            ></Scientist>
           ))}
         </div>
         <div className="cart px-3 animate__animated animate__fadeInRight animate__delay-2s">
           {/* cart components  */}
-          <Cart></Cart>
+          <Cart cart={cart} newSalary={newSalary}></Cart>
         </div>
       </div>
     </div>
