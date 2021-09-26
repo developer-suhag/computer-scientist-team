@@ -7,4 +7,14 @@
 .profile-img {
   width: 50%;
   border-radius: 50%;
+  border-color: #005f73;
+}
+/* regular-btn */
+.regular-btn {
+  background: #14213d;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 16px;
 }

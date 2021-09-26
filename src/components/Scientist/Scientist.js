@@ -1,4 +1,8 @@
 import React from "react";
+// react font awesome
+import ReactDOM from "react-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import "./Scientist.css";
 
 const Scientist = (props) => {
@@ -28,8 +32,13 @@ const Scientist = (props) => {
               <b>Salary: {salary}</b>
             </p>
           </div>
-          <div className="card-footer">
-            <small className="text-muted">Last updated 3 mins ago</small>
+          <div className="card-footer bg-white border-0 text-center">
+            <button className="regular-btn">
+              <span className="icon me-2">
+                <FontAwesomeIcon icon={faUserPlus} />
+              </span>
+              Add to team
+            </button>
           </div>
         </div>
       </div>
