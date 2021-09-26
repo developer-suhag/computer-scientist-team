@@ -7,29 +7,17 @@ const Lab = () => {
   // load data
   const [scientists, setScientists] = useState([]);
   useEffect(() => {
+    // load data
     fetch("./scientists.json")
       .then((res) => res.json())
       .then((data) => setScientists(data));
   }, []);
 
   // handle cart
-  // cart count
-  const [cart, setCart] = useState(0);
-  // cart salary
-  const [newSalary, setNewSalary] = useState(0);
-  // added scientists list
-  const [scientistList, setScientistList] = useState([]);
+  const [cart, setCart] = useState([]);
   const handleCart = (scientist) => {
-    // cart count
-    const newCount = cart + 1;
-    setCart(newCount);
-    // salary
-    const { salary, name } = scientist;
-    const totalSalary = newSalary + salary;
-    setNewSalary(totalSalary);
-    // scientists list
-    const newList = [...scientistList, name];
-    setScientistList(newList);
+    const newCarts = [...cart, scientist];
+    setCart(newCarts);
   };
   return (
     //   lab section
@@ -51,11 +39,7 @@ const Lab = () => {
         </div>
         <div className="cart px-3 animate__animated animate__fadeInRight animate__delay-2s">
           {/* cart components  */}
-          <Cart
-            cart={cart}
-            newSalary={newSalary}
-            scientistList={scientistList}
-          ></Cart>
+          <Cart cart={cart}></Cart>
         </div>
       </div>
     </div>

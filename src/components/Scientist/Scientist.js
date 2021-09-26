@@ -15,16 +15,17 @@ const Scientist = (props) => {
   return (
     <div>
       {/* card  */}
-
       <div className="col h-100">
         <div className="card h-100 p-3 scientist-box">
           <div className="profile text-center">
+            {/* profile img  */}
             <img
               src={img}
               className="card-img-top profile-img img-thumbnail"
               alt=""
             />
           </div>
+          {/* card description  */}
           <div className="card-body text-center">
             <div className="social-icons">
               <a
@@ -64,6 +65,7 @@ const Scientist = (props) => {
               <b>Salary: ${salary}</b>
             </p>
           </div>
+          {/* add to team button  */}
           <div className="card-footer bg-white border-0 text-center">
             <button
               onClick={() => props.handleCart(props.scientist)}

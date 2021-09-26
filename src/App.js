@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Lab from "./components/Lab/Lab";
 
@@ -9,6 +10,8 @@ function App() {
       <Header></Header>
       {/* Lab componenets */}
       <Lab></Lab>
+      {/* footer components  */}
+      <Footer></Footer>
     </div>
   );
 }

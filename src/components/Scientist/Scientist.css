@@ -52,7 +52,9 @@
 .occpation,
 .know-for {
   color: #14213d;
-  margin: 8px 0;
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .salary {
