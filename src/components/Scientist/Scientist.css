@@ -10,11 +10,33 @@
   transform: translateY(-10px);
   box-shadow: none;
 }
-
+/* scientist details  */
 .profile-img {
   width: 50%;
   border-radius: 50%;
   border-color: #005f73;
+  position: relative;
+}
+
+.name {
+  font-size: 22px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: #14213d;
+}
+.age {
+  font-size: 18px;
+}
+.education,
+.occpation,
+.know-for {
+  color: #14213d;
+  margin: 8px 0;
+}
+
+.salary {
+  color: #fca311;
+  font-size: 18px;
 }
 /* regular-btn */
 .regular-btn {

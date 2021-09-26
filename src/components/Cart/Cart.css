@@ -1,4 +1,14 @@
 /* cart section  */
+.cart-box {
+  background: #f4f1de;
+  padding: 40px 30px;
+  border: 1px solid #005f73;
+  border-radius: 30px 5px 30px 5px;
+  box-shadow: 4px 4px 8px 0px rgba(149, 175, 192, 0.5);
+}
+
 .team-summary {
   color: #14213d;
+  font-size: 28px;
+  margin-bottom: 30px;
 }

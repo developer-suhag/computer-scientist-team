@@ -6,7 +6,6 @@ import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 import "./Scientist.css";
 
 const Scientist = (props) => {
-  console.log(props);
   const { name, age, img, education, know_for, occupation, salary } =
     props.scientist;
   return (
@@ -19,16 +18,22 @@ const Scientist = (props) => {
             <img
               src={img}
               className="card-img-top profile-img img-thumbnail"
-              alt="..."
+              alt=""
             />
           </div>
-          <div className="card-body">
-            <h5 className="card-title">{name}</h5>
-            <h6>Age: {age}</h6>
-            <p>Education: {education}</p>
-            <p>Occupation: {occupation}</p>
-            <p>Know for: {know_for.slice(0, 100)}</p>
-            <p>
+          <div className="card-body text-center">
+            <h5 className="card-title name">{name}</h5>
+            <h6 className="age">Age: {age}</h6>
+            <p className="education">
+              <b>Education:</b> {education}
+            </p>
+            <p className="occpation">
+              <b>Occupation:</b> {occupation}
+            </p>
+            <p className="know-for">
+              <b>Know for:</b> {know_for.slice(0, 100)}.
+            </p>
+            <p className="salary">
               <b>Salary: {salary}</b>
             </p>
           </div>
@@ -37,7 +42,7 @@ const Scientist = (props) => {
               <span className="icon me-2">
                 <FontAwesomeIcon icon={faUserPlus} />
               </span>
-              Add to team
+              Add to Team
             </button>
           </div>
         </div>

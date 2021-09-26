@@ -26,7 +26,7 @@ const Lab = () => {
             <Scientist key={scientist.id} scientist={scientist}></Scientist>
           ))}
         </div>
-        <div className="cart animate__animated animate__fadeInRight animate__delay-2s">
+        <div className="cart px-3 animate__animated animate__fadeInRight animate__delay-2s">
           {/* cart components  */}
           <Cart></Cart>
         </div>
