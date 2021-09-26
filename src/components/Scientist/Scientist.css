@@ -1,6 +1,8 @@
 /* scientists section  */
-.profile {
-  /* text-align: center; */
+.scientist-box {
+  border: 1px solid #005f73;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px 0px rgba(149, 175, 192, 0.5);
 }
 .profile-img {
   width: 50%;

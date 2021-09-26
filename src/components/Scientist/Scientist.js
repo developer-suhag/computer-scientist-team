@@ -9,8 +9,8 @@ const Scientist = (props) => {
     <div>
       {/* card  */}
 
-      <div className="col">
-        <div className="card h-100">
+      <div className="col h-100">
+        <div className="card h-100 p-3 scientist-box">
           <div className="profile text-center">
             <img
               src={img}
@@ -23,7 +23,7 @@ const Scientist = (props) => {
             <h6>Age: {age}</h6>
             <p>Education: {education}</p>
             <p>Occupation: {occupation}</p>
-            <p>Know for: {know_for}</p>
+            <p>Know for: {know_for.slice(0, 100)}</p>
             <p>
               <b>Salary: {salary}</b>
             </p>

@@ -21,7 +21,7 @@ const Lab = () => {
       {/* lab container  */}
       <div className="lab-container">
         {/* scientists components  */}
-        <div className="scientists row row-cols-1 row-cols-md-3 g-4">
+        <div className="scientists row row-cols-1 row-cols-md-3 g-4 px-4">
           {scientists.map((scientist) => (
             <Scientist key={scientist.id} scientist={scientist}></Scientist>
           ))}
