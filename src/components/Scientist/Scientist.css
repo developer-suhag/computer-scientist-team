@@ -18,6 +18,27 @@
   position: relative;
 }
 
+/* social icons  */
+
+.social-icons a {
+  display: inline-block;
+  background: #006d77;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 22px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
 .name {
   font-size: 22px;
   margin-top: 20px;

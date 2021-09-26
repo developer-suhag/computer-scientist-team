@@ -3,6 +3,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faFacebook,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import "./Scientist.css";
 
 const Scientist = (props) => {
@@ -22,6 +27,17 @@ const Scientist = (props) => {
             />
           </div>
           <div className="card-body text-center">
+            <div className="social-icons">
+              <a href="#">
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a href="#">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="#">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </div>
             <h5 className="card-title name">{name}</h5>
             <h6 className="age">Age: {age}</h6>
             <p className="education">
