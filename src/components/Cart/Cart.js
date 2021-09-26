@@ -10,7 +10,9 @@ const Cart = (props) => {
       <h3 className="text-center team-summary">Team Summary</h3>
       <div className="mt-4">
         <h5 className="mb-3 total-members">Total members: {cart}</h5>
-        <h5 className="mb-4">Costs of team: ${newSalary}</h5>
+        <h5 className="mb-4">
+          Costs of team: <span className="team-salary">${newSalary}</span>
+        </h5>
         <div>
           <h5 className="mb-4 text-center scientist-list">
             Scientists List :-{" "}

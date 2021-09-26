@@ -8,7 +8,7 @@
   margin-bottom: 40px;
 }
 
-.pick-experts::after {
+/* .pick-experts::after {
   content: "";
   position: absolute;
   top: 50px;
@@ -16,7 +16,7 @@
   width: 200px;
   height: 2px;
   background: #fca311;
-}
+} */
 
 .lab-container {
   display: grid;

@@ -35,7 +35,7 @@ const Lab = () => {
     //   lab section
     <div className="container-fluid lab-section py-5 px-3">
       <h3 className="section-title text-center pick-experts">
-        Pick your Experts
+        Pick your <span style={{ color: "#ff9e00" }}>Experts</span>
       </h3>
       {/* lab container  */}
       <div className="lab-container animate__animated animate__fadeInLeft animate__delay-1s">
