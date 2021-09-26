@@ -1,3 +1,4 @@
+// create fake data
 const fakeDb = [
   {
     id: 1,
@@ -7,7 +8,7 @@ const fakeDb = [
     occupation: "Software Engineer",
     know_for: `Amiga, FreeBSD`,
     salary: 80000,
-    img: "https://i.ibb.co/HqnwHgt/Matthew-Dillon-120x120.jpg",
+    img: "https://i.ibb.co/LSy0y7h/Matthew-Dillon.jpg",
   },
   {
     id: 2,
@@ -17,7 +18,7 @@ const fakeDb = [
     occupation: "Computer Scientist",
     know_for: `Researcher and author of over 100 articles`,
     salary: 120000,
-    img: "https://i.ibb.co/nMZS5Nz/Richard-Allan-De-Millo-50.jpg",
+    img: "https://i.ibb.co/p0tcXwx/Richard-Allan-De-Millo.jpg",
   },
   {
     id: 3,
@@ -27,7 +28,7 @@ const fakeDb = [
     occupation: "Software Engineer",
     know_for: `Node.js & Deno`,
     salary: 90000,
-    img: "https://i.ibb.co/5KG4nDb/Ryan-Dahl-50.jpg",
+    img: "https://i.ibb.co/59JtHCS/Ryan-Dahl.jpg",
   },
   {
     id: 4,
@@ -37,7 +38,7 @@ const fakeDb = [
     occupation: "Software Engineer",
     know_for: `Raising the profile of the issue of the low representation of women in technology companies`,
     salary: 50000,
-    img: "https://i.ibb.co/S7vsYhj/Tracy-Chou-50.jpg",
+    img: "https://i.ibb.co/VWnfjKP/Tracy-Chou.jpg",
   },
   {
     id: 5,
@@ -49,7 +50,7 @@ const fakeDb = [
     Catmull Rom spline
     Catmull Clark subdivision surface`,
     salary: 100000,
-    img: "https://i.ibb.co/zNDS6tX/Jeff-Heusser.jpg",
+    img: "https://i.ibb.co/285CXR6/Jeff-Heusser.jpg",
   },
   {
     id: 6,
@@ -59,7 +60,7 @@ const fakeDb = [
     occupation: "Computer programmer",
     know_for: `Co-founding id Software`,
     salary: 95000,
-    img: "https://i.ibb.co/mN9wGV8/John-Carmack-120x120.jpg",
+    img: "https://i.ibb.co/brtmQDJ/John-Carmack.jpg",
   },
   {
     id: 7,
@@ -69,7 +70,7 @@ const fakeDb = [
     occupation: "Computer scientist",
     know_for: `Theory of Objects with Martín Abadi `,
     salary: 85000,
-    img: "https://i.ibb.co/cvc0DWZ/Luca-Cardelli-120x120.jpg",
+    img: "https://i.ibb.co/3hkvvTD/Luca-Cardelli.jpg",
   },
   {
     id: 8,
@@ -80,7 +81,7 @@ const fakeDb = [
     know_for: `ACM Fellow (2012)
     ACM Distinguished Scientist (2006)`,
     salary: 45000,
-    img: "https://i.ibb.co/KwjzLtb/Tracy-Camp-50.jpg",
+    img: "https://i.ibb.co/jrKs5pH/Tracy-Camp.jpg",
   },
   {
     id: 9,
@@ -90,7 +91,7 @@ const fakeDb = [
     occupation: "Computer scientist",
     know_for: `B-Method`,
     salary: 87000,
-    img: "https://i.ibb.co/s2T5j69/Michael-Butler-120x120.jpg",
+    img: "https://i.ibb.co/3NCtgs0/Michael-Butler.jpg",
   },
   {
     id: 10,
@@ -101,7 +102,7 @@ const fakeDb = [
     know_for: `OS/360
     The Mythical Man-Month`,
     salary: 150000,
-    img: "https://i.ibb.co/hZSGyV7/Fred-Brooks-120x120.jpg",
+    img: "https://i.ibb.co/yQDhC3f/Fred-Brooks.jpg",
   },
   {
     id: 11,
@@ -111,7 +112,7 @@ const fakeDb = [
     occupation: "Internet entrepreneur",
     know_for: `Co-founding Google. Co-founding Alphabet Inc. Co-creating PageRank`,
     salary: 200000,
-    img: "https://i.ibb.co/d0JK1YV/Sergey-Brin-50.jpg",
+    img: "https://i.ibb.co/zF9kH86/Sergey-Brin.jpg",
   },
   {
     id: 12,
@@ -121,7 +122,7 @@ const fakeDb = [
     occupation: "Research scientist ",
     know_for: `Volunteer computing`,
     salary: 86000,
-    img: "https://i.ibb.co/sKhkQW8/David-P-Anderson.jpg",
+    img: "https://i.ibb.co/9Y2gm48/David-P-Anderson.jpg",
   },
   {
     id: 13,
@@ -131,7 +132,7 @@ const fakeDb = [
     occupation: "Consulting Professor ",
     know_for: `CAPTCHA, reCAPTCHA, Duolingo, crowdsourcing pioneer`,
     salary: 60000,
-    img: "https://i.ibb.co/rbKnDxk/Luis-von-Ahn-120x120.jpg",
+    img: "https://i.ibb.co/xj7hJKC/Luis-von-Ahn.jpg",
   },
   {
     id: 14,
@@ -141,7 +142,7 @@ const fakeDb = [
     occupation: "Computer scientist",
     know_for: `RSA`,
     salary: 75000,
-    img: "https://i.ibb.co/12rh1Qw/Leonard-Adleman-120x120.jpg",
+    img: "https://i.ibb.co/6JP758z/Leonard-Adleman.jpg",
   },
   {
     id: 15,
@@ -151,6 +152,6 @@ const fakeDb = [
     occupation: "Computer scientist",
     know_for: `Mechanism Design for Social Good (MD4SG) AI for social good`,
     salary: 80000,
-    img: "https://i.ibb.co/pWyfP35/Rediet-Abebe-1-50.png",
+    img: "https://i.ibb.co/XxgMtMq/rediet.jpg",
   },
 ];

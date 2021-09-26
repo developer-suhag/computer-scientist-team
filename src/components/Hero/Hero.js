@@ -4,6 +4,7 @@ import heroImg from "../../images/Scientists studying neural connections.jpg";
 
 const Hero = () => {
   return (
+    // hero section
     <div className="container hero-section">
       <div>
         <h3 className="section-title">Build a team of computer scientists</h3>

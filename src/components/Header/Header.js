@@ -6,7 +6,9 @@ import Hero from "../Hero/Hero";
 const Header = () => {
   return (
     <div>
+      {/* header section  */}
       <header className="header-section">
+        {/* nav section  */}
         <div className="top-header">
           <div className="container menu">
             <img className="logo" src={logo} alt="" />
@@ -18,6 +20,7 @@ const Header = () => {
             </nav>
           </div>
         </div>
+        {/* hero section  */}
         <Hero></Hero>
       </header>
     </div>

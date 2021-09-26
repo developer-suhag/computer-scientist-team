@@ -1,0 +1,30 @@
+/* lab section  */
+.lab-section {
+  background: #edf2f4;
+}
+.pick-experts {
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.pick-experts::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 640px;
+  width: 200px;
+  height: 2px;
+  background: #fca311;
+}
+
+.lab-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+  margin-top: 50px;
+}
+/* scientists components  */
+.scientists {
+  border-right: 1px solid #fca311;
+}

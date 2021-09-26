@@ -1,6 +1,9 @@
+/* header section styles  */
+/* top header  */
 .top-header {
   background: #e5e5e5;
 }
+/* menu section  */
 .menu {
   display: flex;
   justify-content: space-between;
