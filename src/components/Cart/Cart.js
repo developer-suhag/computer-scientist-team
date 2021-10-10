@@ -9,12 +9,18 @@ const Cart = (props) => {
     0
   );
 
+  let totalQuantity = 0;
+  for (const scientist of cart) {
+    scientist.quantity = !scientist.quantity ? 1 : scientist.quantity;
+    totalQuantity += scientist.quantity;
+  }
+
   return (
     //   cart section
     <div className="cart-box">
       <h3 className="text-center team-summary">Team Summary</h3>
       <div className="mt-4">
-        <h5 className="mb-3 total-members">Total members: {cart.length}</h5>
+        <h5 className="mb-3 total-members">Total members: {totalQuantity}</h5>
         <h5 className="mb-4">
           Costs of team: <span className="team-salary">${total}</span>
         </h5>
