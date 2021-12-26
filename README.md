@@ -2,8 +2,6 @@
 
 ### Front End project
 
-Happy Hearts, Happy Families.
-
 [Visit our website](https://computer-scientist-team-by-suhag.netlify.app/)
 
 ## Featured in -
